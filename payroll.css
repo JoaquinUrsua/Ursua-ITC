@@ -1,0 +1,152 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Black Background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    font-weight: bold;
+    color: #FF3366;
+}
+
+/* Main Container */
+#maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left Content Styling */
+#left-content {
+    text-align: left;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#left-content h2 {
+    color: #FF6699;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #ffffff;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+button {
+    background-color: #FF3366;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+button:hover {
+    background-color: #FF6699;
+    transform: translateY(-2px);
+}
+
+.back-home {
+    color: #FF3366;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid #FF3366;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.back-home:hover {
+    background-color: #FF3366;
+    color: white;
+}
+
+/* Right Content Styling */
+#right-content {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+}
+
+thead th {
+    background-color: #FF3366;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:hover {
+    background-color: #FFEEE6;
+}
+
+th, td {
+    padding: 0.8rem;
+    color: #333;
+    text-align: center;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 2rem;
+    color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Payroll</title>
+    <link rel="stylesheet" href="payroll.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Payroll</h1>
+    </header>
+    <main>
+        <div id="maindiv">
+            <div id="left-content">
+                <h2>Add Employee</h2>
+                <label for="employee1">Employee Name:</label>
+                <input id="employee1" type="text" placeholder="Enter employee name">
+
+                <label for="days1">Days Worked:</label>
+                <input id="days1" type="number" min="0" placeholder="Enter days worked">
+
+                <label for="rate1">Daily Rate:</label>
+                <input id="rate1" type="number" min="0" placeholder="Enter daily rate">
+
+                <label for="amount1">Deduction Amount:</label>
+                <input id="amount1" type="number" min="0" placeholder="Enter deduction amount">
+
+                <button id="btnaddtotab">Add to Table</button>
+                <a href="index.html" id="homebtn" class="back-home">Back to Home</a>
+            </div>
+            <div id="right-content">
+                <h2>Employee Table</h2>
+                <table id="itemstable">
+                    <thead>
+                        <tr>
+                            <th>Employee No.</th>
+                            <th>Employee Name</th>
+                            <th>Days Worked</th>
+                            <th>Daily Rate</th>
+                            <th>Gross Pay</th>
+                            <th>Deduction Amount</th>
+                            <th>Net Pay</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="payroll.js"></script>
+</body>
+</html>
